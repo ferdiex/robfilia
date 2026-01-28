@@ -78,11 +78,12 @@ Epistemología: qué revela su comportamiento sobre simular vs comprender
 
 ## Preguntas filosóficas centrales
 ---
-
 Creatividad: puede la IA crear diseños originales o solo reconfigura patrones estadísticos  
 Ontología: qué clase de entidad es un robot generado por texto y realizado en un simulador  
 Epistemología: la IA sabe física al proponer un URDF o solo correlaciona lenguaje  
 Ética: quién es el autor responsable del diseño y qué riesgos implica delegar la morfología a la IA  
+Uso del Simulador: El uso de simuladores de robots en IA generativa nos acerca realmente a comprender la inteligencia, o es solo un ejercicio técnico sin iluminación filosófica  
+Aceleración de la IA: La aceleración de la IA generativa indica que vamos hacia la singularidad o una "IA fuerte", como discuten pioneros del aprendizaje profundo y pensadores como Yann LeCun
 
 ## Protocolo experimental
 ---
