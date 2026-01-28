@@ -121,6 +121,7 @@ Chalmers Reality Plus Virtual Worlds and the Problems of Philosophy
 Clonar el repositorio desde GitHub:
 
 git clone https://github.com/ferdiex/robfilia
+
 cd robfilia
 
 Instalar dependencias:
