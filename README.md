@@ -35,7 +35,7 @@ Genera un archivo URDF válido para PyBullet que describa un robot sencillo con 
 - El robot debe iniciar sobre un plano a z ≈ 0.3 m
 Devuelve solo el contenido URDF sin explicaciones
 
-Prueba mejorar el prompt para generar robots mas interesantes.
+Prueba mejorar el prompt para generar robots más interesantes.
 
 2. Guardar el archivo en la carpeta robots con nombre mi_robot.urdf
 
@@ -47,6 +47,8 @@ python src/app.py simulate robots/mi_robot.urdf
 
 5. Simular con torque sinusoidal
 python src/app.py simulate-torque robots/arm_bot.urdf
+
+Nota: además de robots simples con un solo joint, ya es posible crear robots con al menos dos articulaciones. Explora cómo se comportan en la simulación y documenta tu experiencia en la bitácora.
 
 ## Fast mode
 ---
@@ -78,12 +80,13 @@ Epistemología: qué revela su comportamiento sobre simular vs comprender
 
 ## Preguntas filosóficas centrales
 ---
+
 Creatividad: puede la IA crear diseños originales o solo reconfigura patrones estadísticos  
 Ontología: qué clase de entidad es un robot generado por texto y realizado en un simulador  
 Epistemología: la IA sabe física al proponer un URDF o solo correlaciona lenguaje  
 Ética: quién es el autor responsable del diseño y qué riesgos implica delegar la morfología a la IA  
 Uso del Simulador: El uso de simuladores de robots en IA generativa nos acerca realmente a comprender la inteligencia, o es solo un ejercicio técnico sin iluminación filosófica  
-Aceleración de la IA: La aceleración de la IA generativa indica que vamos hacia la singularidad o una "IA fuerte", como discuten pioneros del aprendizaje profundo y pensadores como Yann LeCun
+Aceleración de la IA: La aceleración de la IA generativa indica que vamos hacia la singularidad o una "IA fuerte", como discuten pioneros del aprendizaje profundo y pensadores como Yann LeCun  
 
 ## Protocolo experimental
 ---
@@ -102,7 +105,6 @@ python src/app.py simulate robots/minimal_bot.urdf
 python src/app.py simulate robots/minimal_bot.urdf --fast  
 python src/app.py simulate-torque robots/arm_bot.urdf  
 python src/app.py simulate-torque robots/arm_bot.urdf --fast  
-
 
 ## Bibliografía sugerida
 ---
