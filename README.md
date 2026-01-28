@@ -102,6 +102,7 @@ python src/app.py simulate robots/minimal_bot.urdf --fast
 python src/app.py simulate-torque robots/arm_bot.urdf  
 python src/app.py simulate-torque robots/arm_bot.urdf --fast  
 
+
 ## Bibliografía sugerida
 ---
 
@@ -113,3 +114,37 @@ Heidegger Ser y tiempo
 Aristóteles Metafísica  
 Kant Crítica de la razón pura  
 Chalmers Reality Plus Virtual Worlds and the Problems of Philosophy  
+
+## Primeros pasos en GitHub
+---
+
+Clonar el repositorio desde GitHub:
+
+git clone https://github.com/ferdiex/robfilia
+cd robfilia
+
+Instalar dependencias:
+
+pip install -r requirements.txt
+
+Validar un robot:
+
+python src/app.py validate robots/mi_robot.urdf
+
+Simular en tiempo real:
+
+python src/app.py simulate robots/mi_robot.urdf
+
+Simular en fast mode desde el inicio:
+
+python src/app.py simulate robots/mi_robot.urdf --fast
+
+Simular con torque sinusoidal:
+
+python src/app.py simulate-torque robots/arm_bot.urdf
+
+Simular con torque en fast mode:
+
+python src/app.py simulate-torque robots/arm_bot.urdf --fast
+
+Alternativamente, dentro de la simulación se puede presionar la barra espaciadora para alternar entre tiempo real y fast mode.
