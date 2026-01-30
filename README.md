@@ -1,12 +1,12 @@
-<p align="right">
-  <img src="images/robot-stick.png" alt="Robot Stick" width="300"/>
-</p>
-
 ## Robfilia: Filosofía de la IA + Robótica Generativa (PyBullet)
 
 **Version: 0.9.0**
 
 Este proyecto explora cómo la IA generativa puede diseñar robots en formato URDF y simularlos en PyBullet, conectando práctica técnica con análisis filosófico.
+
+<p align="right">
+  <img src="images/robot-stick.png" alt="Robot Stick" width="300"/>
+</p>
 
 ## Instalación
 
