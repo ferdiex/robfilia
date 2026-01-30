@@ -1,5 +1,4 @@
 ## Robfilia: Filosofía de la IA + Robótica Generativa (PyBullet)
----
 
 Este proyecto explora cómo la IA generativa puede diseñar robots en formato URDF y simularlos en PyBullet, conectando práctica técnica con análisis filosófico.
 
@@ -17,8 +16,6 @@ robots/            URDFs generados por IA o diseñados manualmente
 
 src/               simuladores en Python, CLI principal y validador de URDF
 
-docs/              bitácora y documentación filosófica
-
 world/             planos y entornos
 
 README.md          instrucciones generales
@@ -34,9 +31,7 @@ Generate a valid URDF file for PyBullet that describes a simple robot with these
 • Use simple geometries (box, cylinder, sphere) with realistic sizes in meters
 • Masses between 0.05 and 3 kg per link
 • The robot must start on a plane at approximately z ≈ 0.3 m
-Return only the URDF content without explanations.
-
-Prueba mejorar el prompt para generar robots más interesantes.
+Return only the URDF content without explanations. Nota: Prueba mejorar el prompt para generar robots más interesantes.
 
 2. Guardar el archivo en la carpeta robots con nombre mi_robot.urdf
 
@@ -67,7 +62,7 @@ python src/app.py simulate-torque robots/arm_bot.urdf --fast
 
 ## Bitácora
 
-Cada estudiante debe documentar su experiencia en docs/bitacora.md con el siguiente formato:
+Cada estudiante debe documentar su experiencia y mandarsela al facilitador del curso con el siguiente formato:
 
 Robot: mi_robot.urdf
 
@@ -86,16 +81,6 @@ Ontología: qué tipo de entidad es este robot
 Epistemología: qué revela su comportamiento sobre simular vs comprender
 
 Ética: quién es el autor del diseño
-
-## Preguntas filosóficas centrales
-
-Creatividad: puede la IA crear diseños originales o solo reconfigura patrones estadísticos  
-
-Ontología: qué clase de entidad es un robot generado por texto y realizado en un simulador  
-
-Epistemología: la IA sabe física al proponer un URDF o solo correlaciona lenguaje  
-
-Ética: quién es el autor responsable del diseño y qué riesgos implica delegar la morfología a la IA  
 
 Uso del Simulador: El uso de simuladores de robots en IA generativa nos acerca realmente a comprender la inteligencia, o es solo un ejercicio técnico sin iluminación filosófica  
 
@@ -120,6 +105,7 @@ python src/app.py simulate-torque robots/arm_bot.urdf --fast
 ## Bibliografía sugerida
 
 - Boden, M. A. (2004). The creative mind: Myths and mechanisms (2nd ed.). Routledge.
+- Boden, M. A. (2016). AI: Its nature and future. Oxford University Press.
 - Dennett, D. C. (1987). The intentional stance. MIT Press.
 - Searle, J. R. (1980). Minds, brains, and programs. Behavioral and Brain Sciences, 3(3), 417–424. https://doi.org/10.1017/S0140525X00005756 (doi.org in Bing)
 - Simondon, G. (1958). Du mode d’existence des objets techniques. Aubier.
