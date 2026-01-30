@@ -11,13 +11,11 @@ Nota: se puede usar environment.yml en conda, pero en macOS puede dar problemas 
 
 ## Estructura del proyecto
 
-project/
+robfilia/
 
 robots/            URDFs generados por IA o diseñados manualmente
 
-src/               simuladores en Python y CLI principal
-
-tests/             validadores de URDF
+src/               simuladores en Python, CLI principal y validador de URDF
 
 docs/              bitácora y documentación filosófica
 
@@ -27,17 +25,16 @@ README.md          instrucciones generales
 
 ## Uso básico
 
-1. Generar un URDF con IA usando el siguiente prompt:
+1. Generate a URDF with AI using the following prompt:
 
-Genera un archivo URDF válido para PyBullet que describa un robot sencillo con estas reglas:
-- Entre 3 y 6 links conectados en estructura de árbol sin ciclos
-- Joints solo de tipo fixed o revolute, cada revolute con limit y axis
-- Cada link debe incluir inertial, collision y visual
-- Usa geometrías simples box cylinder sphere con tamaños realistas en metros
-- Masas entre 0.05 y 3 kg por link
-- El robot debe iniciar sobre un plano a z ≈ 0.3 m
-
-Devuelve solo el contenido URDF sin explicaciones
+Generate a valid URDF file for PyBullet that describes a simple robot with these rules:
+• Between 3 and 6 links connected in a tree structure without cycles
+• Joints only of type fixed or revolute; each revolute must include a limit and an axis
+• Each link must include inertial, collision, and visual elements
+• Use simple geometries (box, cylinder, sphere) with realistic sizes in meters
+• Masses between 0.05 and 3 kg per link
+• The robot must start on a plane at approximately z ≈ 0.3 m
+Return only the URDF content without explanations.
 
 Prueba mejorar el prompt para generar robots más interesantes.
 
