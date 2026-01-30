@@ -1,3 +1,7 @@
+<p align="right">
+  <img src="images/robot-stick.png" alt="Robot Stick" width="300"/>
+</p>
+
 ## Robfilia: Filosofía de la IA + Robótica Generativa (PyBullet)
 
 **Version: 0.9.0**
