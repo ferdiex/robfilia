@@ -140,3 +140,8 @@ Simular con torque en fast mode:
 python src/app.py simulate-torque robots/arm_bot.urdf --fast
 
 Alternativamente, dentro de la simulación se puede presionar la barra espaciadora para alternar entre tiempo real y fast mode.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
