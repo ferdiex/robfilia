@@ -7,13 +7,16 @@ Este proyecto explora cómo la IA generativa puede diseñar robots en formato UR
 
 pip install -r requirements.txt
 
-Nota: antes se puede usar environment.yml en conda, pero en macOS puede dar problemas con versiones. Es mejor requirements.txt sin fijar versiones.
+Nota: se puede usar environment.yml en conda, pero en macOS puede dar problemas con versiones. Es mejor requirements.txt sin fijar versiones.
 
 ## Estructura del proyecto
 
 project/
+
 robots/            URDFs generados por IA o diseñados manualmente
+
 src/               simuladores en Python y CLI principal
+
 tests/             validadores de URDF
 
 docs/              bitácora y documentación filosófica
@@ -33,6 +36,7 @@ Genera un archivo URDF válido para PyBullet que describa un robot sencillo con 
 - Usa geometrías simples box cylinder sphere con tamaños realistas en metros
 - Masas entre 0.05 y 3 kg por link
 - El robot debe iniciar sobre un plano a z ≈ 0.3 m
+
 Devuelve solo el contenido URDF sin explicaciones
 
 Prueba mejorar el prompt para generar robots más interesantes.
@@ -57,7 +61,9 @@ La simulación puede correr en dos modos: tiempo real y fast mode. En tiempo rea
 Existen dos formas de activar fast mode:
 
 1. Desde CLI usando el flag --fast
+
 python src/app.py simulate robots/mi_robot.urdf --fast
+
 python src/app.py simulate-torque robots/arm_bot.urdf --fast
 
 2. Dentro de la simulación presionando la barra espaciadora para alternar entre tiempo real y fast mode.
